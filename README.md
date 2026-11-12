@@ -1,8 +1,6 @@
 # liangkeban-zine · 两克伴杂志卡片 Skill
 
-把文章、报告、访谈或论文整理成中文杂志卡片，导出 PNG 与可编辑 HTML/CSS。基于 [su-zine](https://github.com/doublesq97-ui/su-zine) 改编，保留上游完整快照，并增加两克伴版式、六套配色和布局检查。
-
-> 分享自 Su 𝕏 @Sukiea1008。**本项目是非商业源码可见项目，不是 OSI 定义的开源项目，也不授予自由商用权。** 代码和模板适用 PolyForm Noncommercial 1.0.0；原文档和示例文字适用 CC BY-NC 4.0。详见下方许可说明。
+把文章、报告、访谈或论文整理成中文杂志卡片，导出 PNG 与可编辑 HTML/CSS。项目在 [su-zine](https://github.com/doublesq97-ui/su-zine) 的构建、渲染和模板基础上扩展，新增两克伴版式、六套配色与布局检查。上游保留部分、改编部分和新增功能的区别，见下方“来源与许可”。
 
 ## 能做什么
 
@@ -117,13 +115,28 @@ node --test source/su-zine/tests/render.test.cjs
 
 仓库不包含 node_modules、用户的私人文章/发布文案/封面、浏览器会话或本地缓存；`.gitignore` 排除常见凭据和输出文件。忽略规则不能替代检查，详见 [PRIVACY.md](PRIVACY.md)。
 
-## 许可与署名
+## 来源与许可
 
-- 代码/模板： [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt)
-- 原文档/示例文字： [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt)
-- 范围：[LICENSE-SCOPE.md](LICENSE-SCOPE.md)；署名：[NOTICE.md](NOTICE.md)
-- 改编说明：[MODIFICATIONS.md](MODIFICATIONS.md)；第三方声明：[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)
+### 哪些来自上游，哪些是本项目新增
 
-对外分享卡片时，配文或随附说明须保留 `分享自 Su 𝕏 @Sukiea1008` 和适用许可。页脚的许可链接不能代替作者署名。用户自己的独立内容和第三方素材各自保留原权利；使用渲染器不会自动取得文章、图片或字体的许可。超出许可范围的用途须向相应权利人另行取得授权。
+- **原样保留：** `source/su-zine/` 包含 Su（@Sukiea1008）的 su-zine 固定版本，共 45 个文件，涵盖源码、模板、文档、示例、测试和许可。文件内容保持不变，仅将上游 Skill 入口改名为 `UPSTREAM-SKILL.md`。版本与哈希记录见 [upstream-manifest.json](references/upstream-manifest.json)。
+- **基于上游改编或复用：** 根目录的构建器仍调用上游构建与模板逻辑，并复用上游 CSS；渲染器在上游基础上增加了检查与导出能力。因此，这不是完全从零编写、与上游无关的实现。
+- **本项目新增的功能与内容：** 两克伴品牌和杂志版式、紧凑页脚、结构化布局节点、六套配色适配、封面构图规则、附加校验，以及通用演示与使用说明。这些增量应与上游贡献区分；“新增功能”不意味着其中复用的代码或模板脱离原许可。详细改动及配色来源见 [MODIFICATIONS.md](MODIFICATIONS.md)。
 
-这是独立改编，不代表 Su 对本项目的认可或背书。
+### 适用许可
+
+- 上游代码和模板，以及本项目对其改编、复用的部分，保留 [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt) 的适用条件。
+- 上游原文档、示例文字及其改编部分，保留 [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt) 的适用条件。
+- 新增文件、混合输出和第三方材料的具体范围按现有 [LICENSE-SCOPE.md](LICENSE-SCOPE.md) 与 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) 执行。这份说明不改变已有许可，也不把新增独立内容的权利归给上游作者。
+
+由于项目包含上述非商业许可材料，不能将整个仓库视为可自由商用或符合 OSI 定义的开源项目。超出适用许可范围的用途，需要向相应权利人另行取得授权。
+
+### 署名与素材权利
+
+Required Notice: 分享自 Su 𝕏 @Sukiea1008
+
+对外分享包含上游材料或其改编内容的代码、模板和卡片时，应保留适用许可和署名；卡片的配文或随附说明需包含上述 Required Notice。页脚的许可链接不能代替作者署名。完整要求见 [NOTICE.md](NOTICE.md) 和对应许可正文。
+
+用户自己的独立文章、品牌内容及第三方素材各自保留原权利，不因使用本工具而归属于 Su；使用渲染器也不会自动取得文章、图片或字体的使用许可。
+
+这是独立维护的改编项目，不代表 Su 对本项目的认可或背书。
