@@ -1,0 +1,29 @@
+body,.sheet{background:var(--paper);color:var(--ink)}
+h1,h2,h3,p,.box p{color:var(--ink)}.intro{color:var(--secondary)}
+.mast{color:var(--ink);border-top-color:var(--ink);border-bottom-color:var(--rule)}
+.brand,.section,.eyebrow,.rust .eyebrow,.purple .eyebrow,.blue .eyebrow,.folio,.num{color:var(--accentInk)}
+.box,.green,.purple,.blue,.op-block,.case-diagram,.metric-pair,.endpoint,.destination-stats,.arrowflow>div{background:var(--soft)}
+.box.rust,.rust{background:var(--otherSoft)}
+.note,.sources,.source,.folio small,.num span,.legend,.botcol small,.chartlabel,.metric-desc,.cover-stats small,.case-result,.case-services span,.test-step>span,.endpoint small{color:var(--muted)}
+.footer,.rule,.metric-divider,.metric-pair>div+div,.destination-stats>div+div,.test-step+.test-step,.cover-stats,.cover-bottom,.cover-stats>div+div,.mini-metrics>div{border-color:var(--rule)}
+.greenbg,.bot,.growth i,.case-agent{background:var(--accent)}.rustbg,.human{background:var(--other)}
+.bot,.case-agent{color:var(--onAccent)}.human{color:var(--onOther)}
+.botstack.forecast{outline-color:var(--accentInk)}
+svg circle:first-of-type{stroke:var(--other)}svg circle:nth-of-type(2){stroke:var(--accent)}
+svg text{fill:var(--ink)}svg text:last-of-type{fill:var(--secondary)}
+.big,.big.secondary,.metric-pair strong,.endpoint strong,.cover-stats strong,.destination-stats strong,.mini-metrics b,.cover-note,.metric-pair span{color:var(--accentInk)}
+.endpoint-arrow,.case-arrow,.case-services>div:before,.arrowflow>div:not(:last-child):after,.arrowflow span,.op-block span,.overlap em{color:var(--muted)}
+.share-row i{background:var(--accent)!important}.share-row:nth-child(n+5) i{background:var(--other)!important}
+.case-services>div{background:var(--paper);border-color:var(--rule)}
+.overlap i,.overlap i:last-child{background:var(--otherSoft);color:var(--ink);border-color:var(--rule)}
+.c0,.c1,.c2,.c3,.c4,.c5{--pale:var(--soft);--line:var(--rule)}
+.graphic-title,.label,.row-label,.item,.closing{color:var(--accentInk)}.graphic,.checks{background:var(--soft)}.item{background:var(--paper);border-color:var(--rule)}
+
+/* Override original module colors, including the scoped magazine copy. */
+.c0,.c1,.c2,.c3,.c4,.c5,.upstream-blocks .c0,.upstream-blocks .c1,.upstream-blocks .c2,.upstream-blocks .c3,.upstream-blocks .c4,.upstream-blocks .c5{--accent:var(--themeAccent);--pale:var(--soft);--line:var(--rule)}
+.graphic,.checks,.upstream-blocks .graphic,.upstream-blocks .checks{background:var(--soft);border-color:var(--rule)}
+.item,.upstream-blocks .item{background:var(--paper);border-color:var(--rule);color:var(--accentInk)}
+.label,.graphic-title,.row-label,.closing,.upstream-blocks .label,.upstream-blocks .graphic-title,.upstream-blocks .row-label,.upstream-blocks .closing{color:var(--accentInk)}
+.papers .item,.upstream-blocks .papers .item,.closing,.upstream-blocks .closing{border-left-color:var(--themeAccent)}
+.block,.upstream-blocks .block{border-color:var(--rule)}
+.caption,.check-label,.upstream-blocks .caption,.upstream-blocks .check-label{color:var(--muted)}

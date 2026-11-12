@@ -1,0 +1,21 @@
+*{box-sizing:border-box}body{margin:0;color:#282d2c;background:white;font-family:"Noto Sans CJK SC",sans-serif}.sheet{width:1200px;padding:55px 78px 48px;background:white}.mast{display:flex;justify-content:space-between;align-items:center;border-top:3px solid #273c37;border-bottom:1px solid #a8b0ac;padding:17px 0;font-size:19px;letter-spacing:2px}.brand{font-size:14px;letter-spacing:1px;color:#727977}.section{color:#527368;font-size:21px;letter-spacing:1px;margin:39px 0 20px}h1{font-family:"Noto Serif CJK SC",serif;font-weight:800;font-size:66px;line-height:1.33;letter-spacing:-1px;margin:0 0 27px} .intro{font-size:26px;line-height:1.8;color:#555e5a;margin:0 0 36px;max-width:1000px}.block{border-top:1px solid #c9ceca;padding:28px 0 34px;display:grid;grid-template-columns:1.13fr 1fr;gap:48px}.label{font-size:18px;color:var(--accent);letter-spacing:2px;margin-bottom:17px}h2{font-family:"Noto Serif CJK SC",serif;font-size:37px;line-height:1.42;margin:0 0 19px;font-weight:700}p{font-size:24px;line-height:1.85;margin:0 0 13px}.graphic{background:var(--pale);padding:30px;align-self:stretch;display:flex;flex-direction:column;justify-content:center;min-height:330px}.graphic-title{font-size:13px;color:var(--accent);letter-spacing:3px;padding-bottom:23px}.items{display:flex;flex-direction:column;gap:14px}.item{border:1px solid var(--line);background:#ffffffcc;padding:17px 19px;font-size:24px;line-height:1.5;color:var(--accent);font-weight:600}.item b{font-size:15px;opacity:.65;padding-right:13px;font-weight:400}.flow .item:not(:last-child)::after{content:"↓";float:right;opacity:.5}.tags .items{display:grid;grid-template-columns:1fr 1fr}.tags .item{min-height:100px;display:flex;align-items:center;font-size:25px}.tags .item b{display:none}.papers .item{padding:26px 22px;border-left:4px solid var(--accent);font-size:26px}.caption{margin-top:21px;font-size:16px;line-height:1.6;color:#717976}.checks{border-top:1px solid #c9ceca;background:#f6f6f2;padding:24px 28px;margin:0 0 30px;display:grid;grid-template-columns:1fr 1fr;gap:33px}.check-label{font-size:17px;color:#6a756e;margin-bottom:10px;letter-spacing:1px}.check-body{font-size:22px;line-height:1.7}.closing{font-family:"Noto Serif CJK SC",serif;font-size:31px;line-height:1.5;color:#36574b;border-left:4px solid #739381;padding-left:22px;margin:5px 0 35px}.footer{display:flex;justify-content:space-between;gap:20px;border-top:1px solid #9fa9a3;padding-top:20px}.source{font-size:14px;line-height:1.8;color:#757e78;overflow-wrap:anywhere}.num{font-family:"Noto Serif CJK SC",serif;font-size:43px;color:#526d60;white-space:nowrap;align-self:end}.num span{font-family:sans-serif;font-size:15px;color:#949b96}.c0{--accent:#416655;--pale:#f0f4ef;--line:#cedbd1}.c1{--accent:#69597c;--pale:#f4f1f7;--line:#ddd4e6}.c2{--accent:#95634b;--pale:#f8f1ec;--line:#e7d6cb}.c3{--accent:#4e7185;--pale:#eef4f7;--line:#cbdae2}
+/* Reconstruction additions: optional panels and two extra palette colors. */
+.c4{--accent:#8a7640;--pale:#f8f5e9;--line:#e4dcbc}
+.c5{--accent:#8b5968;--pale:#f8eff2;--line:#e5ccd5}
+.panel-row{padding:15px 0;border-top:1px solid var(--line)}
+.row-label{font-size:18px;font-weight:700;color:var(--accent);margin-bottom:7px}
+.row-body{font-size:22px;line-height:1.7}
+.checktitle{font-size:27px;margin:15px 0}
+.sheet{height:auto;overflow:visible}
+.block>div,.graphic,.mast>span,.source{min-width:0}
+.title,.block-title,p,.intro,.item,.row-body,.row-label,.check-body,.check-label,.closing,.brand,.series{overflow-wrap:anywhere}
+.mast{gap:24px;margin-bottom:30px}
+
+/* Browser edition: modestly airier rhythm without oversized cards. */
+.sheet{padding-top:62px;padding-bottom:56px}
+.intro{margin-bottom:44px}
+.block{padding-top:34px;padding-bottom:42px;gap:52px}
+.graphic{padding:34px;min-height:350px}
+.tags .item{min-height:120px}
+.items{gap:17px}
+.checks{padding-top:28px;padding-bottom:28px;margin-top:8px;margin-bottom:36px}

@@ -1,0 +1,102 @@
+{
+  "title": "su-zine · 从文章到杂志套图",
+  "eyebrow": "READ · VERIFY · DESIGN · EXPORT",
+  "subtitle": "先核对内容，再组织版式；浏览器直接导出高清 PNG",
+  "footer": "助手负责阅读与核实 · 本地脚本负责排版与导出 · 逐张验收后交付",
+  "command": "",
+  "watermark": "Su X @Sukiea1008 / doublesq",
+  "stages": [
+    {
+      "id": "source",
+      "label": "01 内容输入",
+      "nodes": [
+        {
+          "id": "article",
+          "label": "文章 / 链接",
+          "subtitle": "读取完整原文"
+        },
+        {
+          "id": "doc",
+          "label": "粘贴 / 文档",
+          "subtitle": "保留来源信息"
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "label": "02 核对内容",
+      "nodes": [
+        {
+          "id": "facts",
+          "label": "来源与主张",
+          "subtitle": "区分事实、观点、建议",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "label": "03 组织套图",
+      "nodes": [
+        {
+          "id": "pages",
+          "label": "逐页提纲",
+          "subtitle": "每页一个问题与结论"
+        }
+      ]
+    },
+    {
+      "id": "layout",
+      "label": "04 本地排版",
+      "nodes": [
+        {
+          "id": "html",
+          "label": "HTML / CSS",
+          "subtitle": "白底杂志 · 可编辑"
+        }
+      ]
+    },
+    {
+      "id": "output",
+      "label": "05 验收交付",
+      "nodes": [
+        {
+          "id": "png",
+          "label": "高清 PNG",
+          "subtitle": "浏览器导出 · 逐张检查"
+        },
+        {
+          "id": "sourcefiles",
+          "label": "可编辑源文件",
+          "subtitle": "内容 · 来源 · HTML/CSS"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "article",
+      "to": "facts"
+    },
+    {
+      "from": "doc",
+      "to": "facts"
+    },
+    {
+      "from": "facts",
+      "to": "pages"
+    },
+    {
+      "from": "pages",
+      "to": "html"
+    },
+    {
+      "from": "html",
+      "to": "png"
+    },
+    {
+      "from": "html",
+      "to": "sourcefiles"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "file": "page-01.png",
+    "cssWidth": 1200,
+    "cssHeight": 1918.203125,
+    "overflow": [],
+    "fonts": "loaded",
+    "width": 2400,
+    "height": 3838,
+    "scale": 2,
+    "browser": "156.0.8078.80"
+  },
+  {
+    "file": "page-02.png",
+    "cssWidth": 1200,
+    "cssHeight": 1911.203125,
+    "overflow": [],
+    "fonts": "loaded",
+    "width": 2400,
+    "height": 3824,
+    "scale": 2,
+    "browser": "156.0.8078.80"
+  },
+  {
+    "file": "page-03.png",
+    "cssWidth": 1200,
+    "cssHeight": 1881.25,
+    "overflow": [],
+    "fonts": "loaded",
+    "width": 2400,
+    "height": 3764,
+    "scale": 2,
+    "browser": "156.0.8078.80"
+  }
+]

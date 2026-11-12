@@ -1,0 +1,6 @@
+/* Two-line source footer, discrete folio, and compact lower space. */
+.sheet{overflow:visible}
+.mast{gap:24px}.mast>span:first-child{min-width:0}.brand{flex-shrink:0}
+.footer{flex-shrink:0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:end}
+.sources{min-width:0}.source-line,.license-line{white-space:nowrap}
+.folio{text-align:right;min-width:90px}

@@ -1,0 +1,231 @@
+{
+  "repository": "https://github.com/doublesq97-ui/su-zine",
+  "commit": "a877f7f76adb64278d22716f31e28138bfc6724c",
+  "files": [
+    {
+      "upstream_path": ".gitignore",
+      "installed_path": "source/su-zine/.gitignore",
+      "sha256": "da755931df20ec58665698d41d612d01edc8159bd9f4498a55cbc5ea1461eed8"
+    },
+    {
+      "upstream_path": "DEPENDENCIES.md",
+      "installed_path": "source/su-zine/DEPENDENCIES.md",
+      "sha256": "49daae281691a46d737cf456a3354262c5f40d0cab76f42fc8ef48284ab7f09e"
+    },
+    {
+      "upstream_path": "LICENSE",
+      "installed_path": "source/su-zine/LICENSE",
+      "sha256": "76ad8e6261f917e0b4fb9420fcdf1c66f99562063c2dafdc01cde3ec4b76be7e"
+    },
+    {
+      "upstream_path": "LICENSE-SCOPE.md",
+      "installed_path": "source/su-zine/LICENSE-SCOPE.md",
+      "sha256": "f6f6883e35a9705d62e8691685bf71ace0fb20af84e80476d8c31bac9d2da6c5"
+    },
+    {
+      "upstream_path": "LICENSES/CC-BY-NC-4.0.txt",
+      "installed_path": "source/su-zine/LICENSES/CC-BY-NC-4.0.txt",
+      "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    },
+    {
+      "upstream_path": "LICENSES/PolyForm-Noncommercial-1.0.0.txt",
+      "installed_path": "source/su-zine/LICENSES/PolyForm-Noncommercial-1.0.0.txt",
+      "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8"
+    },
+    {
+      "upstream_path": "LICENSES/SOURCES.json",
+      "installed_path": "source/su-zine/LICENSES/SOURCES.json",
+      "sha256": "1f675fadfa180bef4185b5f104bf2713cd155d0e9c64f93d63e21b47de252264"
+    },
+    {
+      "upstream_path": "LICENSES/third-party/fsevents-LICENSE.txt",
+      "installed_path": "source/su-zine/LICENSES/third-party/fsevents-LICENSE.txt",
+      "sha256": "2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1"
+    },
+    {
+      "upstream_path": "LICENSES/third-party/playwright-LICENSE.txt",
+      "installed_path": "source/su-zine/LICENSES/third-party/playwright-LICENSE.txt",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    {
+      "upstream_path": "LICENSES/third-party/playwright-NOTICE.txt",
+      "installed_path": "source/su-zine/LICENSES/third-party/playwright-NOTICE.txt",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+    },
+    {
+      "upstream_path": "LICENSES/third-party/playwright-ThirdPartyNotices.txt",
+      "installed_path": "source/su-zine/LICENSES/third-party/playwright-ThirdPartyNotices.txt",
+      "sha256": "b17ac0bd6f4b8207e440639cc8e0ba1bf1d9eaf9b12236764ab93b346c7abd8e"
+    },
+    {
+      "upstream_path": "LICENSES/third-party/playwright-core-LICENSE.txt",
+      "installed_path": "source/su-zine/LICENSES/third-party/playwright-core-LICENSE.txt",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    {
+      "upstream_path": "LICENSES/third-party/playwright-core-NOTICE.txt",
+      "installed_path": "source/su-zine/LICENSES/third-party/playwright-core-NOTICE.txt",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+    },
+    {
+      "upstream_path": "LICENSES/third-party/playwright-core-ThirdPartyNotices.txt",
+      "installed_path": "source/su-zine/LICENSES/third-party/playwright-core-ThirdPartyNotices.txt",
+      "sha256": "a549d329bad8806fe279f0ecae0fc0270dec7e7c2dc8ec10f90e394f7c32b144"
+    },
+    {
+      "upstream_path": "NOTICE.md",
+      "installed_path": "source/su-zine/NOTICE.md",
+      "sha256": "ee703816b919c77a731dd5616438daaf19fff2107446369ef11f1f810307d014"
+    },
+    {
+      "upstream_path": "PRIVACY.md",
+      "installed_path": "source/su-zine/PRIVACY.md",
+      "sha256": "4dbf1fd3829350c073292170b9771f3aa4570f35d0b2d953e4eaf0149b9b9dd2"
+    },
+    {
+      "upstream_path": "QA.md",
+      "installed_path": "source/su-zine/QA.md",
+      "sha256": "1998c502e44d28ddfde2775f903dd7960f9da2c7ef42877b893624ca6e6ff0f6"
+    },
+    {
+      "upstream_path": "README.md",
+      "installed_path": "source/su-zine/README.md",
+      "sha256": "43e30f664305645a81ff00d7bc216bba3357189076977a274b06befebf609547"
+    },
+    {
+      "upstream_path": "SKILL.md",
+      "installed_path": "source/su-zine/UPSTREAM-SKILL.md",
+      "sha256": "ae3a676627951fbbfed74f9cccc90744bece0c8cf936eb3e1c2193341733cf6d"
+    },
+    {
+      "upstream_path": "THIRD-PARTY-NOTICES.md",
+      "installed_path": "source/su-zine/THIRD-PARTY-NOTICES.md",
+      "sha256": "35ac6bf01c1ab88dcca3bad571f920a7a089e5edb8b8c622a18c93b870c49cdd"
+    },
+    {
+      "upstream_path": "agents/openai.yaml",
+      "installed_path": "source/su-zine/agents/openai.yaml",
+      "sha256": "b11bc0edf21742adaefa532e11c4d3baaccf4ab172843c4b299df1aa77f47bb6"
+    },
+    {
+      "upstream_path": "assets/example.json",
+      "installed_path": "source/su-zine/assets/example.json",
+      "sha256": "eb17a2233d8c36268f5ad8b0474528d028cfd88ceaadc20f6d7027ad1d041bb2"
+    },
+    {
+      "upstream_path": "assets/icon.svg",
+      "installed_path": "source/su-zine/assets/icon.svg",
+      "sha256": "0d227d65f66679e570a66a6f1770725f2cfc9cd79c93c417655db866ea745b32"
+    },
+    {
+      "upstream_path": "assets/style.css",
+      "installed_path": "source/su-zine/assets/style.css",
+      "sha256": "91a2268970e423d579ee8a547a2a9e1a4091c7d343f093aee4d9a2d422f66020"
+    },
+    {
+      "upstream_path": "docs/media/workflow-graph.json",
+      "installed_path": "source/su-zine/docs/media/workflow-graph.json",
+      "sha256": "e625ea6774ce9c9c0aec9e16328be2f27e9540abe0f4e34336f175ef8e615b3b"
+    },
+    {
+      "upstream_path": "docs/media/workflow-poster.png",
+      "installed_path": "source/su-zine/docs/media/workflow-poster.png",
+      "sha256": "e231d776d302779488f6ce2bacfac96508f3ee86e6cdcb514dd8fdd1cf0c1410"
+    },
+    {
+      "upstream_path": "docs/media/workflow-source.json",
+      "installed_path": "source/su-zine/docs/media/workflow-source.json",
+      "sha256": "0ac015bfb3e4b3334198e1aa241f5f284c34e221a1c9594d206bba0ab8c2a2c3"
+    },
+    {
+      "upstream_path": "docs/media/workflow.gif",
+      "installed_path": "source/su-zine/docs/media/workflow.gif",
+      "sha256": "62ed6cdcdfbd86068cbdd0cfce73d8a074a5741c1409a805118217a7ebb8044a"
+    },
+    {
+      "upstream_path": "docs/media/workflow.mp4",
+      "installed_path": "source/su-zine/docs/media/workflow.mp4",
+      "sha256": "cfd9bf1a82407c3e4eebd088a804432c5ece78fbf202f8414a2a2d149ffd0ce8"
+    },
+    {
+      "upstream_path": "examples/intro/content.json",
+      "installed_path": "source/su-zine/examples/intro/content.json",
+      "sha256": "11ae572cbc63eaf851a53a3ea0d5d40e400337683b2583501d83267fccde0e10"
+    },
+    {
+      "upstream_path": "examples/intro/sources.md",
+      "installed_path": "source/su-zine/examples/intro/sources.md",
+      "sha256": "50279b8351d1951fdafadf77b03e5fda2c771d47ad6eaf256c5e9c3c8041ac98"
+    },
+    {
+      "upstream_path": "output/intro/page-01.html",
+      "installed_path": "source/su-zine/output/intro/page-01.html",
+      "sha256": "9a5364e3178a2fff80b72536b754faa7ddbc0622d2cf47a8bd9e30aaaf7b4c1f"
+    },
+    {
+      "upstream_path": "output/intro/page-01.png",
+      "installed_path": "source/su-zine/output/intro/page-01.png",
+      "sha256": "2bbfee1366e7195a1f05cda38ab00a06760e9975c6c9d738f85671db9184a658"
+    },
+    {
+      "upstream_path": "output/intro/page-02.html",
+      "installed_path": "source/su-zine/output/intro/page-02.html",
+      "sha256": "cf790dc7d37f40982d4d55f9bde0d470379ff18784d2c7622427adf53b469987"
+    },
+    {
+      "upstream_path": "output/intro/page-02.png",
+      "installed_path": "source/su-zine/output/intro/page-02.png",
+      "sha256": "c78d4ccb603241b148dbe8e15d4dc0aaac7a270a33915e204976a1ceca1a6f50"
+    },
+    {
+      "upstream_path": "output/intro/page-03.html",
+      "installed_path": "source/su-zine/output/intro/page-03.html",
+      "sha256": "39c5a1150d18b1c4fe616cff31c3259c61061303b75f351eb9b5a9f9b74f8925"
+    },
+    {
+      "upstream_path": "output/intro/page-03.png",
+      "installed_path": "source/su-zine/output/intro/page-03.png",
+      "sha256": "eff5cc374fe48894e8b8c47278fa6defbe9b1eb002fad9a56773c6c16d68bff0"
+    },
+    {
+      "upstream_path": "output/intro/render-report.json",
+      "installed_path": "source/su-zine/output/intro/render-report.json",
+      "sha256": "b2b2e0bc9ddde65b870469185e7d306744eb656d19e316b32d9d8e4831fd34d9"
+    },
+    {
+      "upstream_path": "output/intro/style.css",
+      "installed_path": "source/su-zine/output/intro/style.css",
+      "sha256": "91a2268970e423d579ee8a547a2a9e1a4091c7d343f093aee4d9a2d422f66020"
+    },
+    {
+      "upstream_path": "package.json",
+      "installed_path": "source/su-zine/package.json",
+      "sha256": "0fa39fef686fdccebf2633447704e152834bcbb821068a8d8fd332e730c27dc2"
+    },
+    {
+      "upstream_path": "references/content-schema.md",
+      "installed_path": "source/su-zine/references/content-schema.md",
+      "sha256": "accdf52e92f3da41db3a3e3570f437c37e9576cef4e4bc1308094b38c73a33c2"
+    },
+    {
+      "upstream_path": "scripts/build.py",
+      "installed_path": "source/su-zine/scripts/build.py",
+      "sha256": "c9d4915bcb87973a57af81ac2103f321579d842d23ec71b110bbb42f56c78bc1"
+    },
+    {
+      "upstream_path": "scripts/render.cjs",
+      "installed_path": "source/su-zine/scripts/render.cjs",
+      "sha256": "568a00bc56e6f85b69f3f93bd7ae65e5f2141436a9d93d36dca6e82e4c06ec45"
+    },
+    {
+      "upstream_path": "tests/render.test.cjs",
+      "installed_path": "source/su-zine/tests/render.test.cjs",
+      "sha256": "c64c2ca79c256df99b094a8e010f15a44dbc8db851bacda12fd077456d64a3d8"
+    },
+    {
+      "upstream_path": "tests/test_build.py",
+      "installed_path": "source/su-zine/tests/test_build.py",
+      "sha256": "abc06c7680c5ace704ff8c7a6c34f7e82d55fad67c8ce6b3a3c94ca8d7277390"
+    }
+  ]
+}

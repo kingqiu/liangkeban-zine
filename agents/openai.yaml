@@ -1,0 +1,6 @@
+interface:
+  display_name: "两克伴杂志卡片"
+  short_description: "把文章转成有来源的中文杂志套图，保留 su-zine 原版与两克伴六色扩展"
+  default_prompt: "请用 $liangkeban-zine 把这篇文章制作成两克伴杂志卡片，先使用 writing-styles 处理文案，再检查来源、版式和手机阅读效果。"
+policy:
+  allow_implicit_invocation: true

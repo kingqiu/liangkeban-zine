@@ -1,0 +1,13 @@
+{
+  "name": "liangkeban-zine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Two-Gram Companion editorial cards, derived from su-zine",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "test": "python3 -m unittest discover -s tests -v && node --test tests/render.test.cjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "series": "两克伴 · 杂志卡片演示",
+  "brand": "「两克伴」出品",
+  "profile": "magazine",
+  "theme": "indigo-porcelain",
+  "pages": [
+    {
+      "title": "把一篇文章，\n排成一组好读的卡片",
+      "intro": "这是公开演示素材，展示文字、插画与来源的基本排列。",
+      "section": "01 / 从内容到版面",
+      "source": "两克伴 · 项目演示 · 2026.11",
+      "layout": "cover",
+      "body": [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "cover-image"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "attrs": {
+                "src": "assets/demo.png",
+                "alt": "卡片、连线与内容模块的抽象示意图"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "cover-note"
+          },
+          "children": [
+            "先核实内容，再选择结构。配色可以更换，事实与来源不能丢。"
+          ]
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "note"
+          },
+          "children": [
+            "概念示意，不包含真实统计数据。"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "让读者找到重点",
+      "intro": "每页回答一个清楚的问题，给重要信息留下足够空间。",
+      "section": "02 / 内容与检查",
+      "source": "两克伴 · 项目演示 · 2026.11",
+      "body": [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "columns"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "h2",
+                  "attrs": {},
+                  "children": [
+                    "正文先讲清楚"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "读完整篇素材，整理关键事实，再决定如何拆页。不要为了填满版面加入没有来源的数字。"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "box blue"
+              },
+              "children": [
+                {
+                  "tag": "h2",
+                  "attrs": {},
+                  "children": [
+                    "来源跟着内容"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "保留作者、原文链接与必要的时间范围。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "box green"
+          },
+          "children": [
+            {
+              "tag": "h2",
+              "attrs": {},
+              "children": [
+                "导出后再检查"
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "检查字是否太小、图片是否完整、页脚是否重叠。再用手机尺寸看一次。"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "note"
+          },
+          "children": [
+            "这个示例只演示布局；正式内容需要独立核实。"
+          ]
+        }
+      ]
+    }
+  ]
+}

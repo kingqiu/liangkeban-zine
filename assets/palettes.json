@@ -1,0 +1,230 @@
+[
+  {
+    "name": "瓷青蓝",
+    "slug": "indigo-porcelain",
+    "source": "guizang-social-card-skill/references/theme-presets.md",
+    "official": {
+      "id": "indigo-porcelain",
+      "name": "瓷青蓝",
+      "canvas": "#F2F4F5",
+      "ink": "#0A1F3D",
+      "accent": "#315D93",
+      "panel": "#E5EBEF",
+      "muted": "#5F6D78",
+      "soft": "#D7E1EC",
+      "rule": "rgba(10,31,61,.20)"
+    },
+    "colors": {
+      "paper": "#F2F4F5",
+      "ink": "#0A1F3D",
+      "accent": "#315D93",
+      "accentInk": "#315D93",
+      "secondary": "#0A1F3D",
+      "muted": "#5F6D78",
+      "rule": "rgba(10,31,61,.20)",
+      "soft": "#E5EBEF",
+      "otherSoft": "#D7E1EC",
+      "other": "#D7E1EC",
+      "onAccent": "#FFFFFF",
+      "onOther": "#0A1F3D"
+    },
+    "contrast": {
+      "body": 14.9137831798022,
+      "muted": 4.824598248098192,
+      "accentLabel": 5.090604237032633,
+      "appliedAccentLabel": 5.090604237032633,
+      "botText": 6.735841206800069,
+      "humanText": 12.435095977956358
+    }
+  },
+  {
+    "name": "森林墨绿",
+    "slug": "forest-ink",
+    "source": "guizang-social-card-skill/references/theme-presets.md",
+    "official": {
+      "id": "forest-ink",
+      "name": "森林墨绿",
+      "canvas": "#F5F1E8",
+      "ink": "#16251B",
+      "accent": "#2E6B4F",
+      "panel": "#E8DFCF",
+      "muted": "#5D665D",
+      "soft": "#D4DFD2",
+      "rule": "rgba(22,37,27,.22)"
+    },
+    "colors": {
+      "paper": "#F5F1E8",
+      "ink": "#16251B",
+      "accent": "#2E6B4F",
+      "accentInk": "#2E6B4F",
+      "secondary": "#16251B",
+      "muted": "#5D665D",
+      "rule": "rgba(22,37,27,.22)",
+      "soft": "#E8DFCF",
+      "otherSoft": "#D4DFD2",
+      "other": "#D4DFD2",
+      "onAccent": "#FFFFFF",
+      "onOther": "#16251B"
+    },
+    "contrast": {
+      "body": 14.171842988608896,
+      "muted": 5.286500928290816,
+      "accentLabel": 4.587162358524648,
+      "appliedAccentLabel": 4.587162358524648,
+      "botText": 6.302239018543637,
+      "humanText": 11.627475513655627
+    }
+  },
+  {
+    "name": "经典墨黑",
+    "slug": "ink-classic",
+    "source": "guizang-social-card-skill/references/theme-presets.md",
+    "official": {
+      "id": "ink-classic",
+      "name": "经典墨黑",
+      "canvas": "#F3F0E8",
+      "ink": "#0A0A0B",
+      "accent": "#111111",
+      "panel": "#EBE6DA",
+      "muted": "#68625A",
+      "soft": "#D8D2C6",
+      "rule": "rgba(10,10,11,.22)"
+    },
+    "colors": {
+      "paper": "#F3F0E8",
+      "ink": "#0A0A0B",
+      "accent": "#111111",
+      "accentInk": "#111111",
+      "secondary": "#0A0A0B",
+      "muted": "#68625A",
+      "rule": "rgba(10,10,11,.22)",
+      "soft": "#EBE6DA",
+      "otherSoft": "#D8D2C6",
+      "other": "#D8D2C6",
+      "onAccent": "#FFFFFF",
+      "onOther": "#0A0A0B"
+    },
+    "contrast": {
+      "body": 17.37749336773198,
+      "muted": 5.293858964120732,
+      "accentLabel": 12.547224582037238,
+      "appliedAccentLabel": 12.547224582037238,
+      "botText": 18.883060964594996,
+      "humanText": 13.149698689293883
+    }
+  },
+  {
+    "name": "牛皮纸棕",
+    "slug": "kraft-paper",
+    "source": "guizang-social-card-skill/references/theme-presets.md",
+    "official": {
+      "id": "kraft-paper",
+      "name": "牛皮纸棕",
+      "canvas": "#EEDFC7",
+      "ink": "#2A1E13",
+      "accent": "#9B5A2E",
+      "panel": "#DFC9A8",
+      "muted": "#755F49",
+      "soft": "#D5B58F",
+      "rule": "rgba(42,30,19,.24)"
+    },
+    "colors": {
+      "paper": "#EEDFC7",
+      "ink": "#2A1E13",
+      "accent": "#9B5A2E",
+      "accentInk": "#2A1E13",
+      "secondary": "#2A1E13",
+      "muted": "#755F49",
+      "rule": "rgba(42,30,19,.24)",
+      "soft": "#DFC9A8",
+      "otherSoft": "#D5B58F",
+      "other": "#D5B58F",
+      "onAccent": "#FFFFFF",
+      "onOther": "#2A1E13"
+    },
+    "contrast": {
+      "body": 12.38071104549685,
+      "muted": 4.589576525874831,
+      "accentLabel": 2.781427233286605,
+      "appliedAccentLabel": 8.37642086489051,
+      "botText": 5.390656249996756,
+      "humanText": 8.37642086489051
+    }
+  },
+  {
+    "name": "克莱因蓝",
+    "slug": "ikb",
+    "source": "guizang-social-card-skill/references/theme-presets.md",
+    "official": {
+      "id": "ikb",
+      "name": "克莱因蓝",
+      "canvas": "#FAFAF8",
+      "ink": "#0A0A0A",
+      "accent": "#002FA7",
+      "panel": "#F0F0EE",
+      "muted": "#737373",
+      "soft": "#D4D4D2",
+      "rule": "#D4D4D2"
+    },
+    "colors": {
+      "paper": "#FAFAF8",
+      "ink": "#0A0A0A",
+      "accent": "#002FA7",
+      "accentInk": "#002FA7",
+      "secondary": "#0A0A0A",
+      "muted": "#737373",
+      "rule": "#D4D4D2",
+      "soft": "#F0F0EE",
+      "otherSoft": "#D4D4D2",
+      "other": "#D4D4D2",
+      "onAccent": "#FFFFFF",
+      "onOther": "#0A0A0A"
+    },
+    "contrast": {
+      "body": 18.944472043904614,
+      "muted": 4.537211851884659,
+      "accentLabel": 7.201139429961935,
+      "appliedAccentLabel": 7.201139429961935,
+      "botText": 10.689143477454714,
+      "humanText": 13.337757886485061
+    }
+  },
+  {
+    "name": "安全橙",
+    "slug": "safety-orange",
+    "source": "guizang-social-card-skill/references/theme-presets.md",
+    "official": {
+      "id": "safety-orange",
+      "name": "安全橙",
+      "canvas": "#FAFAF8",
+      "ink": "#0A0A0A",
+      "accent": "#FF6B35",
+      "panel": "#F0F0EE",
+      "muted": "#737373",
+      "soft": "#D4D4D2",
+      "rule": "#D4D4D2"
+    },
+    "colors": {
+      "paper": "#FAFAF8",
+      "ink": "#0A0A0A",
+      "accent": "#FF6B35",
+      "accentInk": "#0A0A0A",
+      "secondary": "#0A0A0A",
+      "muted": "#737373",
+      "rule": "#D4D4D2",
+      "soft": "#F0F0EE",
+      "otherSoft": "#D4D4D2",
+      "other": "#D4D4D2",
+      "onAccent": "#0A0A0A",
+      "onOther": "#0A0A0A"
+    },
+    "contrast": {
+      "body": 18.944472043904614,
+      "muted": 4.537211851884659,
+      "accentLabel": 1.91014080921983,
+      "appliedAccentLabel": 13.337757886485061,
+      "botText": 6.982604539993405,
+      "humanText": 13.337757886485061
+    }
+  }
+]

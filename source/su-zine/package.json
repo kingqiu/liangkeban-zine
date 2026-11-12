@@ -1,0 +1,13 @@
+{
+  "name": "su-zine",
+  "version": "0.2.1",
+  "private": true,
+  "description": "Chinese editorial zine images from local HTML/CSS",
+  "scripts": {
+    "test": "python3 -m unittest discover -s tests -v && node --test tests/render.test.cjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

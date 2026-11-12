@@ -1,0 +1,14 @@
+{
+  "PolyForm-Noncommercial-1.0.0.txt": {
+    "source": "https://polyformproject.org/licenses/noncommercial/1.0.0.txt",
+    "retrieved": "2026-11-09",
+    "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8",
+    "bytes": 4563
+  },
+  "CC-BY-NC-4.0.txt": {
+    "source": "https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt",
+    "retrieved": "2026-11-09",
+    "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+    "bytes": 19347
+  }
+}
